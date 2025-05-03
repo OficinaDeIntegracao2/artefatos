@@ -34,3 +34,13 @@ Desenvolver um sistema integrado para gerenciar alunos voluntários e atividades
 | Tailwind CSS         | Não definido (geração de PDF) |     | Cypress (E2E)       |  
 
 ---
+
+## **Estratégia de Automação de Testes do Sistema**
+
+| Tipo de Teste       | Exemplos de Cenários                          | Ferramenta         |  
+|---------------------|-----------------------------------------------|--------------------|  
+| **Testes Unitários** | Validação de funções de cálculo de carga horária. | Jest               |  
+| **Testes de API**    | CRUD de alunos/oficinas via endpoints da API. | Jest + Supertest   |  
+| **Testes E2E**       | Fluxo completo: cadastro → oficina → certificado. | Cypress            |
+---
+
