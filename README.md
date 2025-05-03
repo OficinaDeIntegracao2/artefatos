@@ -44,3 +44,6 @@ Desenvolver um sistema integrado para gerenciar alunos voluntários e atividades
 | **Testes E2E**       | Fluxo completo: cadastro → oficina → certificado. | Cypress            |
 ---
 
+## **Arquitetura do Sistema**
+
+![Descrição da Imagem](https://github.com/OficinaDeIntegracao2/artefatos/blob/main/arquitetura.png?raw=true)
