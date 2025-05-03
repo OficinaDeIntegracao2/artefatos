@@ -1,17 +1,36 @@
-# Projeto ELLP - Ensino Lúdico de Lógica e Programação
-# Tecnologias Utilizadas
+# Projeto ELLP - Ensino Lúdico de Lógica e Programação  
+**Plataforma de Gestão de Voluntários e Certificados para Extensão Universitária**  
 
-- **Front-end:** nextjs
-- **Back-end:** nodejs, express
-- **Banco de dados:** sqlite
-- **Testes:** Jest(teste unitario e teste de integração), cypress(teste e2e)
+---
 
-# Requisitos Funcionais
+## **Objetivo**  
+Desenvolver um sistema integrado para gerenciar alunos voluntários e atividades do projeto ELLP da UTFPR, facilitando a organização de oficinas educativas e a emissão automatizada de certificados. O projeto visa promover o ensino de lógica e programação para comunidades de forma lúdica, garantindo eficiência administrativa e transparência nas atividades de extensão.
 
-- **Cadastro de aluno voluntario:** O sistema permitirá o coordenador fazer o cadastro de aluno voluntario.
-- **Editar aluno voluntario:** O sistema permitirá o coordenador editar o aluno voluntario.
-- **Excluir aluno voluntario:** O sistema permitirá o coordenador excluir o aluno voluntario.
-- **Cadastro de oficina:** O sistema permitirá o coordenador fazer o cadastro de oficina.
-- **Editar oficina:** O sistema permitirá o coordenador editar a oficina.
-- **Excluir oficina:** O sistema permitirá o coordenador excluir a oficina.
-- **Geração de certificado para alunos voluntarios**: O sistema permitirá o coordenador gerar certificado para o aluno voluntario.
+---
+
+## **Funcionalidades**  
+
+- **Cadastro de Alunos**:  
+  - Campos obrigatórios: nome, e-mail institucional, curso, R.A.  
+  - Validação de duplicidade (e-mail/matrícula).  
+  - **Edição de Dados**: Atualização de informações pessoais.  
+  - **Exclusão de Aluno**: Confirmação via modal para evitar remoção acidental.  
+
+- **Cadastro de Oficinas**: 
+  - Campos: título, descrição, data, local, carga horária, aluno voluntário responsável.  
+  - **Edição de Oficinas**: Atualizar informações.  
+  - **Exclusão de Oficinas**: Verificação de certificados vinculados antes da exclusão.  
+
+- **Geração de PDF**:  
+  - Template personalizável com logo da UTFPR, dados do aluno, atividades realizadas e carga horária total.  
+
+---
+
+## **Tecnologias Utilizadas**  
+
+| **Front-end**       | **Back-end**       | **Banco de Dados** | **Testes**          |  
+|----------------------|--------------------|---------------------|---------------------|  
+| Next.js              | Node.js + Express             | SQLite              | Jest (unitários/integração) |  
+| Tailwind CSS         | Não definido (geração de PDF) |     | Cypress (E2E)       |  
+
+---
