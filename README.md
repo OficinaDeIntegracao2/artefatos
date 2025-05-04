@@ -41,7 +41,7 @@ Desenvolver um sistema integrado para gerenciar alunos voluntários e atividades
 |---------------------|-----------------------------------------------|--------------------|  
 | **Testes Unitários** | Validação de funções de cálculo de carga horária. | Jest               |  
 | **Testes de API**    | CRUD de alunos/oficinas via endpoints da API. | Jest + Supertest   |  
-| **Testes E2E**       | Fluxo completo: cadastro → oficina → certificado. | Cypress            |
+| **Testes E2E**       | Fluxo completo: entrada no sistema → cadastro → login → cadastro de oficina → oficina → certificado. | Cypress            |
 ---
 
 ## **Arquitetura do Sistema**
