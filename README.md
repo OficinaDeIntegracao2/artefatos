@@ -1,5 +1,12 @@
 # Projeto ELLP - Ensino Lúdico de Lógica e Programação  
-**Plataforma de Gestão de Voluntários e Certificados para Extensão Universitária**  
+**Plataforma de Gestão de Voluntários e Certificados para Extensão Universitária**
+
+---
+
+## **Alunos**
+Douglas Silva Ribeiro - 2209039
+Mateus Eduardo - 2145308
+Vitor Kenji Moribe Tominaga - 1805967
 
 ---
 
