@@ -4,9 +4,14 @@
 ---
 
 ## **Alunos**
-Douglas Silva Ribeiro - 2209039
-Mateus Eduardo - 2145308
-Vitor Kenji Moribe Tominaga - 1805967
+- Douglas Silva Ribeiro - 2209039
+- Mateus Eduardo - 2145308
+- Vitor Kenji Moribe Tominaga - 1805967
+
+---
+
+##**Trello**
+https://trello.com/invite/b/68229385354718db1d2f6bed/ATTI4139b833b420c838fcca1acb1f49a18645742AD6/oficina-2
 
 ---
 
